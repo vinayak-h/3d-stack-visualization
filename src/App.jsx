@@ -51,7 +51,7 @@ const App = () => {
     scene.add(ground);
 
     // Background Texture
-    const backgroundTexture = new THREE.TextureLoader().load("https://img.freepik.com/free-photo/beautiful-view-sky-sunset-beach_158538-26143.jpg?t=st=1738912320~exp=1738915920~hmac=f6bea535bfc8f65e572f44a384a9e6ec29436623e1c581758eba9751d1b870da&w=1060");
+    const backgroundTexture = new THREE.TextureLoader().load("https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2t5fGVufDB8fDB8fHww");
     scene.background = backgroundTexture;
 
     // Stack Data Structure
