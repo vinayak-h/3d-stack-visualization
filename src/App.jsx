@@ -37,7 +37,7 @@ const App = () => {
     scene.add(directionalLight);
 
     // Ground Texture
-    const groundTexture = new THREE.TextureLoader().load("./assets/ground.jpg");
+    const groundTexture = new THREE.TextureLoader().load("https://images.unsplash.com/photo-1613533107646-4316a9edb900?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JvdW5kJTIwdGV4dHVyZXxlbnwwfHwwfHx8MA%3D%3D");
     groundTexture.wrapS = groundTexture.wrapT = THREE.RepeatWrapping;
     groundTexture.repeat.set(10, 10);
 
@@ -51,7 +51,7 @@ const App = () => {
     scene.add(ground);
 
     // Background Texture
-    const backgroundTexture = new THREE.TextureLoader().load("./assets/sky.jpg");
+    const backgroundTexture = new THREE.TextureLoader().load("https://img.freepik.com/free-photo/beautiful-view-sky-sunset-beach_158538-26143.jpg?t=st=1738912320~exp=1738915920~hmac=f6bea535bfc8f65e572f44a384a9e6ec29436623e1c581758eba9751d1b870da&w=1060");
     scene.background = backgroundTexture;
 
     // Stack Data Structure
