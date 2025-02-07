@@ -37,7 +37,7 @@ const App = () => {
     scene.add(directionalLight);
 
     // Ground Texture
-    const groundTexture = new THREE.TextureLoader().load("src/assets/ground.jpg");
+    const groundTexture = new THREE.TextureLoader().load("./assets/ground.jpg");
     groundTexture.wrapS = groundTexture.wrapT = THREE.RepeatWrapping;
     groundTexture.repeat.set(10, 10);
 
@@ -51,7 +51,7 @@ const App = () => {
     scene.add(ground);
 
     // Background Texture
-    const backgroundTexture = new THREE.TextureLoader().load("src/assets/sky.jpg");
+    const backgroundTexture = new THREE.TextureLoader().load("./assets/sky.jpg");
     scene.background = backgroundTexture;
 
     // Stack Data Structure
